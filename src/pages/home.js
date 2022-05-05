@@ -44,19 +44,6 @@ const Home = () => {
             alignItems: 'center',
             justifyContent: 'space-between',
         })}>
-            <LabelMedium>Todas as Pautas</LabelMedium>
-            <div className={css({
-                display: 'flex',
-                alignItems: 'center',
-                cursor: 'pointer',
-            })}>
-                <ParagraphMedium className={css({
-                    display: 'flex',
-                    alignItems: 'center',
-                })}><Filter size='2rem' className={css({
-                    marginRight: '0.3rem',
-                })} />Filter</ParagraphMedium>
-            </div>
         </div>
         {
             agendas?.map(({ open, id, dateEnd, dateStart, description, name }, index) => (
@@ -65,7 +52,6 @@ const Home = () => {
                         accordion
                         key={index}
                     >
-                        {console.log(open)}
                         <Panel title={name}>
                             <div>
                                 <div>

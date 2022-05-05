@@ -40,7 +40,7 @@ const DashboardHeader = ({open, setOpen}) => {
                             display: 'none',
                         }
                     })}>
-                        Tickets
+                        Pautas para votação
                     </span>
                 </NavigationItem>
             </NavigationList>

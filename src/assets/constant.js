@@ -4,12 +4,6 @@ export const menuData = [
         title: 'Pautas de votação',
         icon: <FaChartPie style={{ marginRight: '0.5rem' }} />,
         path: "/"
-    },
-    {
-        title: 'Votar',
-        icon: <FaTicketAlt style={{ marginRight: '0.5rem' }} />,
-        active: true,
-        path: "/vote"
     }
 ]
 export const tableTitles = ["Nome", "Descrição", "data Inicio", "Data fim"]
